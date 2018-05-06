@@ -1,13 +1,8 @@
 {
-  "name": "wutils",
-  "version": "0.1.0",
+  "name": "@webglrun/wutils",
+  "version": "0.1.1",
   "description": "Utils for WebGL",
   "main": "dist/wutils.min.js",
-  "scripts": {
-    "build": "NODE_ENV=production webpack --config build/webpack.config.js --colors --profile"
-  },
-  "author": "jin5354<xiaoyanjinx@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -15,5 +10,18 @@
     "clean-webpack-plugin": "^0.1.19",
     "webpack": "^4.7.0",
     "webpack-cli": "^2.1.2"
-  }
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config build/webpack.config.js --colors --profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jin5354/wutils.git"
+  },
+  "author": "jin5354<xiaoyanjinx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jin5354/wutils/issues"
+  },
+  "homepage": "https://github.com/jin5354/wutils#readme"
 }
